@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/linearLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/foodItemName"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:maxWidth="50dp"
+            android:text="Pizza"
+            android:textSize="20dp"
+            android:textColor="#f7f4f4"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center_vertical"
+            />
+
+        <TextView
+            android:id="@+id/foodItemPrice"
+            android:layout_width="40dp"
+            android:maxWidth="50dp"
+            android:layout_height="wrap_content"
+            android:text="200"
+            android:textSize="20dp"
+            android:textColor="#f7f4f4"
+            android:layout_gravity="center_vertical"
+            />
+        <Button
+            android:id="@+id/btnIncrementCount"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/buttonstyle"
+            android:text="+"
+            android:textColor="#1cb11c"
+            android:textSize="20dp"
+            android:layout_marginLeft="25dp"
+            android:layout_gravity="center_vertical"
+            />
+        <TextView
+            android:id="@+id/foodItemCount"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:maxWidth="50dp"
+            android:text="2"
+            android:textColor="#f7f4f4"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center_vertical"
+            />
+
+        <Button
+            android:id="@+id/btnDecrementCount"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/buttonstyle"
+            android:text="-"
+            android:textColor="#1cb11c"
+            android:textSize="20dp"
+            android:layout_gravity="center_vertical"
+            />
+
+</LinearLayout>
